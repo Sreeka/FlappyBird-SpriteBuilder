@@ -177,7 +177,7 @@
     }
 }
 
--(BOOL)ccPhysicsCollisionPostsolve:(CCPhysicsCollisionPair*)pair character:(CCSprite*)character level:(CCNode*)level {
+-(BOOL)ccPhysicsCollisionbegin:(CCPhysicsCollisionPair*)pair character:(CCSprite*)character level:(CCNode*)level {
     [self gameOver];
     return TRUE;
 }
